@@ -43,7 +43,7 @@ function jugarJuegoDeLaDona() {
         posicionHomero += NUMERO_DADO;
         alert("Homero está en la casilla " + posicionHomero);
 
-        // Condicional para cuando llegue a la casilla 30 o se pase y tenga que volver:
+        // Condicional para cuando se pase de la casilla 30 y tenga que volver:
         if (posicionHomero > 30) {
             alert("Te pasaste del Planeta de las Donas. Debes retroceder.");
             // Bucle para que se repita el retroceso mientras Homero esté en una casilla mayor a 30:
