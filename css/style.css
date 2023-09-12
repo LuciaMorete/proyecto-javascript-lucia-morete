@@ -1,5 +1,18 @@
+::after,
+::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5px;
+}
+
 body {
-    background-image: url(/assets/image.webp);
+    overflow-x: hidden;
+    background-image: url(../assets/image.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +39,7 @@ body {
 
 @media screen and (max-width: 580px){
     body {
-        background-image: url(/assets/homero.jpg);
+        background-image: url(../assets/homero.jpg);
         background-size: 100% 100%;
     }
     .titulo {
