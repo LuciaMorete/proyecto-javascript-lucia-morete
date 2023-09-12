@@ -1,0 +1,35 @@
+body {
+    background-image: url(/assets/image.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: fuchsia;
+    max-width: 100%;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Rock Salt', cursive;
+    font-size: 60px ;
+    color: yellow;
+    width: 100%;
+    margin-top: 10rem;
+    font-weight: 600;
+    -webkit-text-stroke: .5px black;
+}
+
+@media screen and (max-width: 580px){
+    body {
+        background-image: url(/assets/desktop-wallpaper-ultra-homer-simpson-donuts-for-your-mobile-phone-0425-donut.jpg);
+        background-size: 100% 100%;
+    }
+    .titulo {
+        font-size: 50px ;
+    }
+}
