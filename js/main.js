@@ -74,9 +74,12 @@ function jugarJuegoDeLaDona () {
                 posicionHomero -= RETROCESO;
                 alert("Homero retrocede a la casilla " + posicionHomero);
             }
-        } else {}
+        } 
     }
 }
 
 // Llamada a la función para que se inicie el juego:
-jugarJuegoDeLaDona ()
+
+setTimeout(() => {
+    jugarJuegoDeLaDona ()
+}, 2000);
